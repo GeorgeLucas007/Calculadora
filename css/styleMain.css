@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: gray;
+    height: auto;
+    margin: 10%;
+    row-gap: 1%;
+    column-gap: 0.3%;
+}
+
+.display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(64, 63, 63);
+    height: 10vh;
+    color: white;
+}
+.grid-item{
+    padding: 2% 0% 2% 0%;
+    font-weight: bold;
+}
