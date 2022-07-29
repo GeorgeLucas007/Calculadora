@@ -20,29 +20,31 @@
     <div class="grid-container">
         <div class="display"></div>
 
-        <button class="grid-item">Clear All</button>
-        <button class="grid-item">Clear Character</button>
+        <button class="grid-item limparDisplay" id="limparDisplay">C</button>
+        <button class="grid-item limparCalculo" id="limparCalculo">CE</button>
+        <button class="grid-item limparNumUnico" id="limparNumUnico"> << </button>
 
         <button class="grid-item">x<sup>2</sup></button>
-        <button class="grid-item">x<sup>1/2</sup></button>
-        <button class="grid-item">/</button>
-        <button class="grid-item">x</button>
-        <button class="grid-item">-</button>
-        <button class="grid-item soma">+</button>
+        <button class="grid-item" id="operadorDivisao">/</button>
+        <button class="grid-item" id="operadorMulti">*</button>
+        <button class="grid-item" id="operadorSub">-</button>
+        <button class="grid-item" id="operadorSoma">+</button>
         
         
-        <button class="numero grid-item zero" id="numero">0</button>
-        <button class="grid-item um" id="numero">1</button>
-        <button class="grid-item" id="numero">2</button>
-        <button class="grid-item" id="numero">3</button>
-        <button class="grid-item" id="numero">4</button>
-        <button class="grid-item" id="numero">5</button>
-        <button class="grid-item" id="numero">6</button>
-        <button class="grid-item" id="numero">7</button>
-        <button class="grid-item" id="numero">8</button>
-        <button class="grid-item" id="numero">9</button>
-        <button class="grid-item" id="numero">,</button>
-        <button class="grid-item" style="background-color: black; color:white">=</button>
+        <button class="grid-item button-num" id="numero0">0</button>
+        <button class="grid-item button-num" id="numero1">1</button>
+        <button class="grid-item button-num" id="numero2">2</button>
+        <button class="grid-item button-num" id="numero3">3</button>
+        <button class="grid-item button-num" id="numero4">4</button>
+        <button class="grid-item button-num" id="numero5">5</button>
+        <button class="grid-item button-num" id="numero6">6</button>
+        <button class="grid-item button-num" id="numero7">7</button>
+        <button class="grid-item button-num" id="numero8">8</button>
+        <button class="grid-item button-num" id="numero9">9</button>
+        
+        
+        <button class="grid-item virgulaDecimal" id="virgulaDecimal">,</button>
+        <button class="grid-item igual" id="igual" style="background-color: black; color:white">=</button>
     </div>
     
     <footer>

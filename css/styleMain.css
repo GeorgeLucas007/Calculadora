@@ -20,7 +20,7 @@
     font-weight: bold;
 }
 
-#numero {
+.button-num {
     background-color: rgb(42, 41, 41);
     color: white;
 }
